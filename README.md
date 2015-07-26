@@ -1,2 +1,2 @@
 # lpthw
-Learn Python The Hard Way exercises.
+My solutions to Learn Python The Hard Way exercises. 
