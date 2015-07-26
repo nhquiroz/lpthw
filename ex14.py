@@ -1,4 +1,9 @@
+# <--- modules needed --->
+
 from sys import argv
+
+
+# <--- beginning of the script --->
 
 script, user_name = argv
 prompt = '> '
