@@ -1,4 +1,9 @@
+# <--- modules needed --->
+
 from sys import argv
+
+
+# <--- beginning of the script --->
 
 filename  = argv[1]         # script = ex15_sample.txt
 text_file = open(filename)
