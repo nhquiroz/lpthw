@@ -11,6 +11,7 @@ print("He's %d years old.")              % (my_age)
 print("He weights %d kilos.")            % (my_weight)
 print("His eyes are %s and his hair %s") % (my_eyes, my_hair)
 
-# the next line is a little more tricky
-print("If I add %d, %d, and %d I get %d.") % (my_age, my_height, my_weight, my_age + my_height + my_weight)
+print("If I add %d, %d, and %d I get %d.") % (my_age, my_height,
+                                              my_weight, my_age + my_height +
+                                              my_weight)
 print("Bye!")
