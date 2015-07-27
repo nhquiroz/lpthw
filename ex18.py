@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 def print_two_arguments(*args):
     arg1, arg2 = args   # unpacking arguments to variables
     print("arg1: %r, arg2: %r") % (arg1, arg2)

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # <--- modules needed --->
 
 from sys import argv

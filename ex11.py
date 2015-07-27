@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 print("How old are you? (years):"),
 age = raw_input()
 print("How tall are you? (centimetres):"),

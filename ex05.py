@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 my_name = "Nico"
 my_age = 23
 my_height = 184

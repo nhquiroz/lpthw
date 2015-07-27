@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 cars = 100
 drivers = 30
 passengers = 90
