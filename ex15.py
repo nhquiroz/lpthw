@@ -5,7 +5,7 @@ from sys import argv
 
 # <--- beginning of the script --->
 
-filename  = argv[1]         # filename = 'ex15_sample.txt'
+filename = argv[1]         # filename = 'ex15_sample.txt'
 text_file = open(filename)
 
 print("Here's your file %r:") % filename
