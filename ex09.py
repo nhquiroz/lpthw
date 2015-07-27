@@ -1,6 +1,6 @@
 # Here's some new strange stuff, remember type it exactly
 
-days   = "Mon Tue Wed Thu Fri Sat Sun"
+days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nAug\n"
 
 print("Here are the days: "), days
