@@ -1,7 +1,7 @@
-x      = "There are %d types of people" % 10
+x = "There are %d types of people" % 10
 binary = "binary"
 do_not = "don't"
-y      = "Those who know %s and those who %s." % (binary, do_not)
+y = "Those who know %s and those who %s." % (binary, do_not)
 
 print(x)
 print(y)
@@ -13,7 +13,7 @@ print(y)
  to show information on screen.
 """
 
-print("I said: %r.")       % x
+print("I said: %r.") % x
 print("I also said: '%s'") % y
 
 hilarious = False
