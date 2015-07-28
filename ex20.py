@@ -22,10 +22,9 @@ def print_a_line(line_count, text_file):
     print line_count, text_file.readline()
 
 
-current_file = open(input_file)
-
-print("Fist let's print the whole file:\n")
-print_all(current_file)
+with open(input_file) as current_file:
+    print("Fist let's print the whole file:\n")
+    print_all(current_file)
 
 print("Now let's rewind, kind of like a tape.")
 rewind(current_file)
