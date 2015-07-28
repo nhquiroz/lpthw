@@ -1,4 +1,7 @@
 # lpthw
+
+[![Code Climate](https://codeclimate.com/github/nhquiroz/lpthw/badges/gpa.svg)](https://codeclimate.com/github/nhquiroz/lpthw) [![Code Health](https://landscape.io/github/nhquiroz/lpthw/master/landscape.svg?style=flat)](https://landscape.io/github/nhquiroz/lpthw/master) [![Code Issues](http://www.quantifiedcode.com/api/v1/project/cbd7dcc8bdb04519a8d247069bc9e6dc/badge.svg)](http://www.quantifiedcode.com/app/project/cbd7dcc8bdb04519a8d247069bc9e6dc)
+
 My solutions to Learn Python The Hard Way exercises.     
 
 [Git Hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) added to run [flake8](https://pypi.python.org/pypi/flake8) on .py files, pre-commit.
