@@ -7,7 +7,10 @@ from sys import argv
 
 # <--- beginning of the script --->
 
-script, first_var, second_var, third_var = argv
+script = argv[0]
+first_var = argv[1]
+second_var = argv[2]
+third_var = argv[3]
 
 print("The script is called: "), script
 print("Your first variable is: "), first_var
