@@ -7,7 +7,8 @@ from sys import argv
 
 # <--- beginning of the script --->
 
-script, user_name = argv
+script = argv[0]
+user_name = argv[1]
 prompt = '> '
 
 print("Hi %s, I'm the %s script.") % (user_name, script)
