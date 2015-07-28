@@ -8,13 +8,6 @@ y = "Those who know %s and those who %s." % (binary, do_not)
 print(x)
 print(y)
 
-"""
- %r is used to show the variable in a 'raw mode'
- while %s convert it to string.
- That's why %r is useful for debuging and %s, %d
- to show information on screen.
-"""
-
 print("I said: %r.") % x
 print("I also said: '%s'") % y
 
