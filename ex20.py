@@ -10,16 +10,16 @@ from sys import argv
 input_file = argv[1]
 
 
-def print_all(file):
-    print file.read()
+def print_all(text_file):
+    print text_file.read()
 
 
-def rewind(file):
-    file.seek(0)
+def rewind(text_file):
+    text_file.seek(0)
 
 
-def print_a_line(line_count, file):
-    print line_count, file.readline()
+def print_a_line(line_count, text_file):
+    print line_count, text_file.readline()
 
 
 current_file = open(input_file)
