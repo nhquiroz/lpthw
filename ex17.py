@@ -10,13 +10,13 @@ from os.path import exists
 
 source_file, target_file = argv[1], argv[2]
 
-print("Copying from %r to %r.") % (source_file, target_file)
+print("Copying from {0!r} to {1!r}.".format(source_file, target_file))
 
 with open(source_file) as input_file:
     content = input_file.read()
-    print("The input file is %d bytes long.") % len(content)
+    print("The input file is {:d} bytes long.".format(len(content)))
 
-print("Does the output file exist? %r") % exists(target_file)
+print("Does the output file exist? {!r}".format(exists(target_file)))
 print("Ready. Hit RETURN to continue or CTRL-C to abort.")
 raw_input('> ')
 

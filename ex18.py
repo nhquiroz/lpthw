@@ -3,15 +3,15 @@
 
 def print_two_arguments(*args):
     arg1, arg2 = args   # unpacking arguments to variables
-    print("arg1: %r, arg2: %r") % (arg1, arg2)
+    print("arg1: {0!r}, arg2: {1!r}".format(arg1, arg2))
 
 
 def print_two_arguments_again(arg1, arg2):   # better than the previous version
-    print("arg1: %r, arg2: %r") % (arg1, arg2)
+    print("arg1: {0!r}, arg2: {1!r}".format(arg1, arg2))
 
 
 def print_one_argument(arg):
-    print("arg: %r") % arg
+    print("arg: {!r}".format(arg))
 
 
 def print_without_arguments():

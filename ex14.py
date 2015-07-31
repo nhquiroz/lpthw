@@ -11,12 +11,12 @@ script = argv[0]
 user_name = argv[1]
 prompt = '> '
 
-print("Hi %s, I'm the %s script.") % (user_name, script)
+print("Hi {0}, I'm the {1} script.".format(user_name, script))
 print("I'd like to ask you a few questions.")
-print("Do you like me %s?") % user_name
+print("Do you like me {}?".format(user_name))
 likes = raw_input(prompt)
 
-print("Where do you live %s?") % user_name
+print("Where do you live {}?".format(user_name))
 lives = raw_input(prompt)
 
 print("What kind of computer do you have?")

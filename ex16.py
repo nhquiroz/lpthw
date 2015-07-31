@@ -9,14 +9,14 @@ from sys import argv
 
 filename = argv[1]
 
-print("We're going to erase %r.") % filename
+print("We're going to erase {!r}.".format(filename))
 print("If you don't want that, hit CTRL-C (^C).")
 print("If you agree, hit RETURN.")
 raw_input('?')
 
 print("Opening the file...")
 with open(filename, 'w') as target:
-    print("Truncating the file %r. Goodbye!") % filename
+    print("Truncating the file {!r}. Goodbye!".format(filename))
     target.truncate()
 
 print("Now I'm going to ask you for three lines.")

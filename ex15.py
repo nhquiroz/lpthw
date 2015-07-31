@@ -10,7 +10,7 @@ from sys import argv
 filename = argv[1]         # filename = 'ex15_sample.txt'
 with open(filename) as text_file:
     content = text_file.read()
-    print("Here's your file %r:") % filename
+    print("Here's your file {!r}:".format(filename))
     print(content)
 
 print("Type the filename again:")
