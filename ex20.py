@@ -30,11 +30,6 @@ with open(input_file) as current_file:
     rewind(current_file)
 
     print("Let's print three lines:")
-    current_line = 1
-    print_a_line(current_line, current_file)
-
-    current_line = current_line + 1
-    print_a_line(current_line, current_file)
-
-    current_line = current_line + 1
-    print_a_line(current_line, current_file)
+    for i in xrange(1, 4):
+        current_line = i
+        print_a_line(current_line, current_file)
