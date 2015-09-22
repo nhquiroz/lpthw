@@ -19,5 +19,5 @@ print("We'd have {0:d} beans, {1:d} jars, and {2:d} crates.".format(beans,
 start_point = start_point / 10
 
 print("We can also do that this way:")
-print("We'd have {0:d} beans, {1:d} jars, and {2:D} crates.".format(
+print("We'd have {0:d} beans, {1:d} jars, and {2:d} crates.".format(
       *secret_formula(start_point)))
