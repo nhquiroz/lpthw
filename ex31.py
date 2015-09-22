@@ -25,7 +25,7 @@ elif door == 2:
 
     insanity = int(raw_input("> "))
 
-    if insanity == 1 or insanity == 2:
+    if insanity in [1, 2]:
         print("Your body survives powered by a mind of jello. Good job!")
     else:
         print("The insanity roots your eyes into a pool of muck. Good job!")
