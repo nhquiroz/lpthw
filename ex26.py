@@ -3,8 +3,9 @@
 import ex25
 
 
-print "Let's practice everything."
-print"You\'d need to know \'bout escapes with \\ that do \n newlines and tabs."
+print("Let's practice everything.")
+print("""You\'d need to know \'bout escapes with \\ that do \n newlines
+         and tabs.""")
 
 
 poem = """
@@ -17,12 +18,12 @@ and requires an explantion
 """
 
 
-print "--------------"
-print poem
-print "--------------"
+print("--------------")
+print(poem)
+print("--------------")
 
 five = 10 - 2 + 3 - 6
-print "This should be five: %s" % five
+print("This should be five: {:s}".format(five))
 
 
 def secret_formula(started):
@@ -35,16 +36,17 @@ def secret_formula(started):
 start_point = 10000
 jelly_beans, jars, crates = secret_formula(start_point)
 
-print "With a starting point of: %d" % start_point
-print "We'd have %d jeans, %d jars, and %d crates." % (jelly_beans,
-                                                       jars, crates)
+print("With a starting point of: {:d}".format(start_point))
+print("We'd have {0:d} jeans, {1:d} jars, and {2:d} crates.".format(
+                                                                   jelly_beans,
+                                                                   jars,
+                                                                   crates))
 
 start_point = start_point / 10
 
-print "We can also do that this way:"
-print "We'd have %d beans, %d jars, and %d crabapples." % (secret_formula
-                                                           (start_point))
-
+print("We can also do that this way:")
+print("""We'd have {0:d} beans, {1:d} jars,
+         and {2:d} crabapples.""".format(*secret_formula(start_point)))
 
 sentence = "All god\tthings come to those who weight."
 
@@ -56,7 +58,7 @@ ex25.print_last_word(words)
 ex25.print_first_word(sorted_words)
 ex25.print_last_word(sorted_words)
 sorted_words = ex25.sort_sentence(sentence)
-print sorted_words
+print(sorted_words)
 
 ex25.print_first_and_last(sentence)
 ex25.print_first_and_last_sorted(sentence)
