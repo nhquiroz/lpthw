@@ -20,3 +20,7 @@ fi
 ```
 
 (Thanks to [signal0](http://signal0.com/2012/07/11/syntax_pep8_checking_before_committing_in_git.html).)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/nhquiroz/lpthw/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
